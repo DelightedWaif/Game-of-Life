@@ -9,7 +9,7 @@ def IPA(x):                 #IPA if your colony of drinkers
 
 def stout(i,j,check,matrix):
     #pub is your 3X3 matrix
-    pub = np.matrix([[matrix[i-1][j-1],matrix[i][j-1],matrix[i+1][j-1]],[matrix[i-1][j],matrix[i][j],matrix[i+1][j],matrix[i-1][j+1],matrix[i][j+1],matrix[i+1][j+1]]])
+    pub = np.matrix([[matrix[i-1][j-1], matrix[i][j-1], matrix[i+1][j-1]], [matrix[i-1][j], matrix[i][j], matrix[i+1][j]], [matrix[i-1][j+1], matrix[i][j+1], matrix[i+1][j+1]]])
     print (pub)
 def Lager(matrix, x):
 
